@@ -801,6 +801,226 @@ hunter_add_version(
     24c5d4308e0f901326f15c274c8c736117966499
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.1.5"
+    URL
+    "https://www.openssl.org/source/openssl-3.1.5.tar.gz"
+    SHA1
+    bae9e00477fb036e28f1c2e9a837fb6992823c57
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.1.6"
+    URL
+    "https://www.openssl.org/source/openssl-3.1.6.tar.gz"
+    SHA1
+    2ab959fbc11283a0bc7a39e33b8f6862372cfc9a
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.1.7"
+    URL
+    "https://www.openssl.org/source/openssl-3.1.7.tar.gz"
+    SHA1
+    429d068b5af9c3a331c74075a228360a381a1d42
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.1.8"
+    URL
+    "https://www.openssl.org/source/openssl-3.1.8.tar.gz"
+    SHA1
+    594346926281ef62f52a5d8076dd5072506ab60a
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.2.0"
+    URL
+    "https://www.openssl.org/source/openssl-3.2.0.tar.gz"
+    SHA1
+    82f6eb236c09f7947caa9044e86800e32cb2e5c8
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.2.1"
+    URL
+    "https://www.openssl.org/source/openssl-3.2.1.tar.gz"
+    SHA1
+    9668723d65d21a9d13e985203ce8c27ac5ecf3ae
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.2.2"
+    URL
+    "https://www.openssl.org/source/openssl-3.2.2.tar.gz"
+    SHA1
+    b12311372a0277ca0eb218a68a7fd9f5ce66d162
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.2.3"
+    URL
+    "https://www.openssl.org/source/openssl-3.2.3.tar.gz"
+    SHA1
+    1c04294b2493a868ac5f65d166c29625181a31ed
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.2.4"
+    URL
+    "https://www.openssl.org/source/openssl-3.2.4.tar.gz"
+    SHA1
+    2247802a1193c0f8eb41c870e8de45a2241422d5
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.2.5"
+    URL
+    "https://www.openssl.org/source/openssl-3.2.5.tar.gz"
+    SHA1
+    cabca8d137a9c2434508c982fecdd9dc0076e88e
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.3.0"
+    URL
+    "https://www.openssl.org/source/openssl-3.3.0.tar.gz"
+    SHA1
+    34cdf3259fd2af83ab2c92ac30c56f79ff5ad59e
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.3.1"
+    URL
+    "https://www.openssl.org/source/openssl-3.3.1.tar.gz"
+    SHA1
+    7376042523b6a229bc697b8099c2af369d1a84c6
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.3.2"
+    URL
+    "https://www.openssl.org/source/openssl-3.3.2.tar.gz"
+    SHA1
+    b7ca08f2d49c10d772c5ec6cf2de6e08e69002b3
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.3.3"
+    URL
+    "https://www.openssl.org/source/openssl-3.3.3.tar.gz"
+    SHA1
+    dff2ce56a241e6cfc5f86de1aac06ef720024ab2
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.3.4"
+    URL
+    "https://www.openssl.org/source/openssl-3.3.4.tar.gz"
+    SHA1
+    1d41e11281664453b1460d73942b4bfc98aa5820
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.4.0"
+    URL
+    "https://www.openssl.org/source/openssl-3.4.0.tar.gz"
+    SHA1
+    5c2f33c3f3601676f225109231142cdc30d44127
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.4.1"
+    URL
+    "https://www.openssl.org/source/openssl-3.4.1.tar.gz"
+    SHA1
+    d3469baf41823a28ad71aae12b2fbb9fe3b19a0d
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.4.2"
+    URL
+    "https://www.openssl.org/source/openssl-3.4.2.tar.gz"
+    SHA1
+    4357361e92bab245ce03e84a688d3c1bd57fe530
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.5.0"
+    URL
+    "https://www.openssl.org/source/openssl-3.5.0.tar.gz"
+    SHA1
+    01ba9f9cc97125eab08bbe7206607e404244cf3c
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    OpenSSL
+    VERSION
+    "3.5.1"
+    URL
+    "https://www.openssl.org/source/openssl-3.5.1.tar.gz"
+    SHA1
+    c2473d27ebfd33e1e08f9fbf1ef303f848edd8dd
+)
+
 if(MINGW)
   hunter_pick_scheme(DEFAULT url_sha1_openssl)
 elseif(WIN32)
