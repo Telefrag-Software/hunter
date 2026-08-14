@@ -1,20 +1,20 @@
 [
     {
-        "id": 94869646644,
-        "run_id": 31832002744,
+        "id": 94883923036,
+        "run_id": 31836525359,
         "workflow_name": "CI",
         "head_branch": "custom",
-        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31832002744",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31836525359",
         "run_attempt": 1,
-        "node_id": "CR_kwDOG7mqDc8AAAAWFqvtNA",
-        "head_sha": "1eac9a1865505a46fb80210696384771c46c8a67",
-        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94869646644",
-        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31832002744/job/94869646644",
+        "node_id": "CR_kwDOG7mqDc8AAAAWF4XEXA",
+        "head_sha": "4b02f1de018f9adda346989cc09fe8570c6cf8b0",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94883923036",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31836525359/job/94883923036",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-08-14T19:09:40Z",
-        "started_at": "2026-08-14T19:09:42Z",
-        "completed_at": "2026-08-14T19:09:47Z",
+        "created_at": "2026-08-14T20:08:42Z",
+        "started_at": "2026-08-14T20:08:45Z",
+        "completed_at": "2026-08-14T20:08:53Z",
         "name": "set_matrix",
         "steps": [
             {
@@ -22,72 +22,72 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-08-14T19:09:43Z",
-                "completed_at": "2026-08-14T19:09:43Z"
+                "started_at": "2026-08-14T20:08:45Z",
+                "completed_at": "2026-08-14T20:08:47Z"
             },
             {
                 "name": "Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-08-14T19:09:43Z",
-                "completed_at": "2026-08-14T19:09:44Z"
+                "started_at": "2026-08-14T20:08:47Z",
+                "completed_at": "2026-08-14T20:08:49Z"
             },
             {
                 "name": "Manual dispatch, get project name from input",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 3,
-                "started_at": "2026-08-14T19:09:44Z",
-                "completed_at": "2026-08-14T19:09:44Z"
+                "started_at": "2026-08-14T20:08:49Z",
+                "completed_at": "2026-08-14T20:08:49Z"
             },
             {
                 "name": "Get changed files and save them to ${HOME}/files.json",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-08-14T19:09:44Z",
-                "completed_at": "2026-08-14T19:09:45Z"
+                "started_at": "2026-08-14T20:08:49Z",
+                "completed_at": "2026-08-14T20:08:49Z"
             },
             {
                 "name": "Set matrix for subsequent build",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-08-14T19:09:45Z",
-                "completed_at": "2026-08-14T19:09:45Z"
+                "started_at": "2026-08-14T20:08:49Z",
+                "completed_at": "2026-08-14T20:08:49Z"
             },
             {
                 "name": "Run actions/upload-artifact@v7",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2026-08-14T19:09:45Z",
-                "completed_at": "2026-08-14T19:09:45Z"
+                "started_at": "2026-08-14T20:08:49Z",
+                "completed_at": "2026-08-14T20:08:50Z"
             },
             {
                 "name": "Post Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 12,
-                "started_at": "2026-08-14T19:09:45Z",
-                "completed_at": "2026-08-14T19:09:46Z"
+                "started_at": "2026-08-14T20:08:50Z",
+                "completed_at": "2026-08-14T20:08:50Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 13,
-                "started_at": "2026-08-14T19:09:46Z",
-                "completed_at": "2026-08-14T19:09:46Z"
+                "started_at": "2026-08-14T20:08:50Z",
+                "completed_at": "2026-08-14T20:08:51Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94869646644",
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94883923036",
         "labels": [
             "ubuntu-latest"
         ],
-        "runner_id": 1000001370,
-        "runner_name": "GitHub Actions 1000001370",
+        "runner_id": 1000001519,
+        "runner_name": "GitHub Actions 1000001519",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     }
