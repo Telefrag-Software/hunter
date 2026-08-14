@@ -44,9 +44,23 @@ if(version_1_55 AND MINGW)
   hunter_report_broken_package("MinGW + Boost 1.55.0 (Use >= 1.56.0)")
 endif()
 
-foreach(x ${boost_libs})
-  list(APPEND boost_list "--without-${x}")
-endforeach()
+if("@HUNTER_Boost_VERSION@" VERSION_GREATER_EQUAL "1.86.0")
+  message(STATUS "Generating Boost component inclusion list.")
+
+  message(STATUS "@@@ HUNTER_Boost_COMPONENTS_FINAL: ${HUNTER_Boost_COMPONENTS}")
+
+  foreach(x ${HUNTER_Boost_COMPONENTS})
+    message(STATUS "@@@ --with-${x}")
+
+    list(APPEND boost_list "--with-${x}")
+  endforeach()
+else()
+  message(STATUS "Generating Boost component exclusion list.")
+
+  foreach(x ${boost_libs})
+    list(APPEND boost_list "--without-${x}")
+  endforeach()
+endif()
 
 if(CMAKE_HOST_WIN32)
   set(install_cmd "b2")

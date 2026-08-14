@@ -187,6 +187,12 @@ if(MSVC)
   )
 endif()
 
+message(STATUS "@@@ HUNTER_PACKAGE_COMPONENTS = '${HUNTER_PACKAGE_COMPONENTS}'")
+message(STATUS "@@@ HUNTER_Boost_COMPONENTS = '${HUNTER_Boost_COMPONENTS}'")
+message(STATUS "@@@ HUNTER_PACKAGE_COMPONENT = '${HUNTER_PACKAGE_COMPONENT}'")
+
+set(HUNTER_Boost_COMPONENTS "${HUNTER_PACKAGE_COMPONENTS}")
+
 hunter_pick_scheme(DEFAULT url_sha1_boost)
 hunter_cacheable(Boost)
 hunter_download(PACKAGE_NAME Boost PACKAGE_INTERNAL_DEPS_ID "51")

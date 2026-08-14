@@ -52,6 +52,9 @@ macro(hunter_add_package)
     hunter_cacheable("${_hunter_ap_project}")
     hunter_download(PACKAGE_NAME "${_hunter_ap_project}")
   else()
+    message(STATUS "@@@ PRE_HUNTER_PACKAGE_COMPONENTS = '${HUNTER_PACKAGE_COMPONENTS}'")
+    set(HUNTER_PACKAGE_COMPONENTS "${_hunter_ap_arg_COMPONENTS}")
+
     # do not use any variables after this 'foreach', because included files
     # may call 'hunter_add_package' and rewrite it
     foreach(x ${_hunter_ap_list})
