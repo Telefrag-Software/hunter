@@ -66,6 +66,7 @@ function(hunter_get_boost_libs)
   hunter_append_component(${common_args} COMPONENT filesystem      SINCE 1.30.0)
   hunter_append_component(${common_args} COMPONENT graph           SINCE 1.18.0)
   hunter_append_component(${common_args} COMPONENT graph_parallel  SINCE 1.18.0)
+  hunter_append_component(${common_args} COMPONENT histogram       SINCE 1.70.0)
   hunter_append_component(${common_args} COMPONENT iostreams       SINCE 1.33.0)
   hunter_append_component(${common_args} COMPONENT json            SINCE 1.75.0)
   hunter_append_component(${common_args} COMPONENT locale          SINCE 1.48.0)
@@ -74,7 +75,7 @@ function(hunter_get_boost_libs)
   hunter_append_component(${common_args} COMPONENT metaparse       SINCE 1.61.0 UNTIL 1.66.0)
   hunter_append_component(${common_args} COMPONENT mpi             SINCE 1.35.0)
   hunter_append_component(${common_args} COMPONENT nowide          SINCE 1.74.0)
-  hunter_append_component(${common_args} COMPONENT predef          SINCE 1.86.0) # is listed as a lib since 1.86.0, but can not be built as one
+  hunter_append_component(${common_args} COMPONENT predef          SINCE 1.86.0 UNTIL 1.91.0) # is listed as a lib since 1.86.0, but can not be built as one
   hunter_append_component(${common_args} COMPONENT process         SINCE 1.86.0) # was header only until 1.86.0
   hunter_append_component(${common_args} COMPONENT program_options SINCE 1.32.0)
   hunter_append_component(${common_args} COMPONENT python          SINCE 1.19.0)
