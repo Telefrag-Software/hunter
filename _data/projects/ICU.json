@@ -1,0 +1,1614 @@
+[
+    {
+        "id": 94865196515,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgF4w",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196515",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196515",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:44Z",
+        "completed_at": "2026-08-14T18:52:54Z",
+        "name": "ICU android-ndk-api-35-arm64-v8a-libcxx14 ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:46Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:46Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:55Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-08-14T18:51:55Z",
+                "completed_at": "2026-08-14T18:52:51Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:51Z",
+                "completed_at": "2026-08-14T18:52:51Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:52:51Z",
+                "completed_at": "2026-08-14T18:52:51Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:52:51Z",
+                "completed_at": "2026-08-14T18:52:51Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:52:51Z",
+                "completed_at": "2026-08-14T18:52:51Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196515",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000001243,
+        "runner_name": "GitHub Actions 1000001243",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196482,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFwg",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196482",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196482",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:53:40Z",
+        "completed_at": "2026-08-14T18:53:59Z",
+        "name": "ICU clang-cxx17 ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:53:41Z",
+                "completed_at": "2026-08-14T18:53:42Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:53:42Z",
+                "completed_at": "2026-08-14T18:53:45Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:53:45Z",
+                "completed_at": "2026-08-14T18:53:45Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:53:45Z",
+                "completed_at": "2026-08-14T18:53:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:53:46Z",
+                "completed_at": "2026-08-14T18:53:46Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:53:46Z",
+                "completed_at": "2026-08-14T18:53:46Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:53:46Z",
+                "completed_at": "2026-08-14T18:53:47Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-08-14T18:53:47Z",
+                "completed_at": "2026-08-14T18:53:57Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:53:57Z",
+                "completed_at": "2026-08-14T18:53:57Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:53:57Z",
+                "completed_at": "2026-08-14T18:53:57Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:53:57Z",
+                "completed_at": "2026-08-14T18:53:57Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:53:57Z",
+                "completed_at": "2026-08-14T18:53:57Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196482",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000001276,
+        "runner_name": "GitHub Actions 1000001276",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196326,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFJg",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196326",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196326",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:43Z",
+        "completed_at": "2026-08-14T18:52:05Z",
+        "name": "ICU gcc-12-cxx17 ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:44Z",
+                "completed_at": "2026-08-14T18:51:45Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:48Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:48Z",
+                "completed_at": "2026-08-14T18:51:49Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:49Z",
+                "completed_at": "2026-08-14T18:51:49Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:49Z",
+                "completed_at": "2026-08-14T18:51:49Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:49Z",
+                "completed_at": "2026-08-14T18:51:49Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:49Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:52:03Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:03Z",
+                "completed_at": "2026-08-14T18:52:03Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:52:03Z",
+                "completed_at": "2026-08-14T18:52:03Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:52:03Z",
+                "completed_at": "2026-08-14T18:52:03Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:52:03Z",
+                "completed_at": "2026-08-14T18:52:03Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196326",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000001234,
+        "runner_name": "GitHub Actions 1000001234",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196328,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFKA",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196328",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196328",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:43Z",
+        "completed_at": "2026-08-14T18:51:57Z",
+        "name": "ICU gcc-13-cxx17-fpic ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:44Z",
+                "completed_at": "2026-08-14T18:51:44Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:44Z",
+                "completed_at": "2026-08-14T18:51:47Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:47Z",
+                "completed_at": "2026-08-14T18:51:48Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:48Z",
+                "completed_at": "2026-08-14T18:51:48Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:48Z",
+                "completed_at": "2026-08-14T18:51:48Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:48Z",
+                "completed_at": "2026-08-14T18:51:48Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:48Z",
+                "completed_at": "2026-08-14T18:51:49Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-08-14T18:51:49Z",
+                "completed_at": "2026-08-14T18:51:55Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:51:55Z",
+                "completed_at": "2026-08-14T18:51:55Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:51:55Z",
+                "completed_at": "2026-08-14T18:51:55Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:51:55Z",
+                "completed_at": "2026-08-14T18:51:56Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:51:56Z",
+                "completed_at": "2026-08-14T18:51:56Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196328",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000001233,
+        "runner_name": "GitHub Actions 1000001233",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196323,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFIw",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196323",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196323",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:43Z",
+        "completed_at": "2026-08-14T18:52:14Z",
+        "name": "ICU gcc-14-cxx17-fpic ubuntu-24.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:46Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:46Z",
+                "completed_at": "2026-08-14T18:51:50Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:50Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:51:53Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-08-14T18:51:53Z",
+                "completed_at": "2026-08-14T18:52:12Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:12Z",
+                "completed_at": "2026-08-14T18:52:12Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:52:12Z",
+                "completed_at": "2026-08-14T18:52:12Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:52:12Z",
+                "completed_at": "2026-08-14T18:52:12Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:52:12Z",
+                "completed_at": "2026-08-14T18:52:12Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196323",
+        "labels": [
+            "ubuntu-24.04"
+        ],
+        "runner_id": 1000001230,
+        "runner_name": "GitHub Actions 1000001230",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196317,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFHQ",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196317",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196317",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:44Z",
+        "completed_at": "2026-08-14T18:52:11Z",
+        "name": "ICU ios-nocodesign-17-5-arm64-cxx17 macos-15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:44Z",
+                "completed_at": "2026-08-14T18:51:45Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:51Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:51Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:54Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 8,
+                "started_at": "2026-08-14T18:51:54Z",
+                "completed_at": "2026-08-14T18:52:07Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:07Z",
+                "completed_at": "2026-08-14T18:52:07Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2026-08-14T18:52:07Z",
+                "completed_at": "2026-08-14T18:52:07Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:52:07Z",
+                "completed_at": "2026-08-14T18:52:08Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:52:08Z",
+                "completed_at": "2026-08-14T18:52:08Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196317",
+        "labels": [
+            "macos-15"
+        ],
+        "runner_id": 1000001236,
+        "runner_name": "GitHub Actions 1000001236",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196349,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFPQ",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196349",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196349",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:52:42Z",
+        "completed_at": "2026-08-14T18:56:50Z",
+        "name": "ICU msys-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:52:43Z",
+                "completed_at": "2026-08-14T18:52:45Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:52:45Z",
+                "completed_at": "2026-08-14T18:52:57Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:52:57Z",
+                "completed_at": "2026-08-14T18:52:58Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:52:58Z",
+                "completed_at": "2026-08-14T18:52:58Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-08-14T18:52:58Z",
+                "completed_at": "2026-08-14T18:52:58Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T18:52:58Z",
+                "completed_at": "2026-08-14T18:52:58Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:52:58Z",
+                "completed_at": "2026-08-14T18:53:06Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-08-14T18:53:06Z",
+                "completed_at": "2026-08-14T18:53:06Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-08-14T18:53:06Z",
+                "completed_at": "2026-08-14T18:56:44Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:56:44Z",
+                "completed_at": "2026-08-14T18:56:45Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:56:45Z",
+                "completed_at": "2026-08-14T18:56:47Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:56:47Z",
+                "completed_at": "2026-08-14T18:56:47Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196349",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000001266,
+        "runner_name": "GitHub Actions 1000001266",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196448,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFoA",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196448",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196448",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:53:10Z",
+        "completed_at": "2026-08-14T18:57:22Z",
+        "name": "ICU ninja-vs-17-2022-win64-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:53:11Z",
+                "completed_at": "2026-08-14T18:53:13Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:53:13Z",
+                "completed_at": "2026-08-14T18:53:25Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:53:25Z",
+                "completed_at": "2026-08-14T18:53:26Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:53:26Z",
+                "completed_at": "2026-08-14T18:53:26Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-08-14T18:53:26Z",
+                "completed_at": "2026-08-14T18:53:26Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T18:53:26Z",
+                "completed_at": "2026-08-14T18:53:27Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:53:27Z",
+                "completed_at": "2026-08-14T18:53:35Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-08-14T18:53:35Z",
+                "completed_at": "2026-08-14T18:53:35Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-08-14T18:53:35Z",
+                "completed_at": "2026-08-14T18:57:18Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:57:18Z",
+                "completed_at": "2026-08-14T18:57:18Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:57:18Z",
+                "completed_at": "2026-08-14T18:57:21Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:57:21Z",
+                "completed_at": "2026-08-14T18:57:21Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196448",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000001271,
+        "runner_name": "GitHub Actions 1000001271",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196322,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFIg",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196322",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196322",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:43Z",
+        "completed_at": "2026-08-14T18:56:59Z",
+        "name": "ICU ninja-vs-18-2026-win64-cxx17 windows-2025-vs2026",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:46Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:46Z",
+                "completed_at": "2026-08-14T18:52:01Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:52:01Z",
+                "completed_at": "2026-08-14T18:52:02Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:52:02Z",
+                "completed_at": "2026-08-14T18:52:02Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-08-14T18:52:02Z",
+                "completed_at": "2026-08-14T18:52:02Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T18:52:02Z",
+                "completed_at": "2026-08-14T18:52:02Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:52:02Z",
+                "completed_at": "2026-08-14T18:52:15Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-08-14T18:52:15Z",
+                "completed_at": "2026-08-14T18:52:15Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:15Z",
+                "completed_at": "2026-08-14T18:56:53Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:56:53Z",
+                "completed_at": "2026-08-14T18:56:53Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:56:53Z",
+                "completed_at": "2026-08-14T18:56:57Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:56:57Z",
+                "completed_at": "2026-08-14T18:56:57Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196322",
+        "labels": [
+            "windows-2025-vs2026"
+        ],
+        "runner_id": 1000001226,
+        "runner_name": "GitHub Actions 1000001226",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196543,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgF_w",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196543",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196543",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:54:54Z",
+        "completed_at": "2026-08-14T18:58:15Z",
+        "name": "ICU nmake-vs-17-2022-win64-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:54:55Z",
+                "completed_at": "2026-08-14T18:54:56Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:54:56Z",
+                "completed_at": "2026-08-14T18:55:06Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:55:06Z",
+                "completed_at": "2026-08-14T18:55:06Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:55:06Z",
+                "completed_at": "2026-08-14T18:55:06Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-08-14T18:55:06Z",
+                "completed_at": "2026-08-14T18:55:06Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T18:55:06Z",
+                "completed_at": "2026-08-14T18:55:07Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:55:07Z",
+                "completed_at": "2026-08-14T18:55:13Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-08-14T18:55:13Z",
+                "completed_at": "2026-08-14T18:55:13Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-08-14T18:55:13Z",
+                "completed_at": "2026-08-14T18:58:11Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:58:11Z",
+                "completed_at": "2026-08-14T18:58:11Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:58:11Z",
+                "completed_at": "2026-08-14T18:58:13Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:58:13Z",
+                "completed_at": "2026-08-14T18:58:13Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196543",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000001297,
+        "runner_name": "GitHub Actions 1000001297",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196330,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFKg",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196330",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196330",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:44Z",
+        "completed_at": "2026-08-14T18:52:13Z",
+        "name": "ICU osx-15-4-arch-universal2-cxx17 macos-15",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:46Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:46Z",
+                "completed_at": "2026-08-14T18:51:52Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:52Z",
+                "completed_at": "2026-08-14T18:51:53Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:53Z",
+                "completed_at": "2026-08-14T18:51:53Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:53Z",
+                "completed_at": "2026-08-14T18:51:53Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:53Z",
+                "completed_at": "2026-08-14T18:51:53Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:53Z",
+                "completed_at": "2026-08-14T18:51:55Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2026-08-14T18:51:55Z",
+                "completed_at": "2026-08-14T18:52:09Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:09Z",
+                "completed_at": "2026-08-14T18:52:09Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:52:09Z",
+                "completed_at": "2026-08-14T18:52:10Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:52:10Z",
+                "completed_at": "2026-08-14T18:52:10Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:52:10Z",
+                "completed_at": "2026-08-14T18:52:11Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196330",
+        "labels": [
+            "macos-15"
+        ],
+        "runner_id": 1000001237,
+        "runner_name": "GitHub Actions 1000001237",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196338,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFMg",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196338",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196338",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:43Z",
+        "completed_at": "2026-08-14T18:55:46Z",
+        "name": "ICU vs-17-2022-win64-sdk-10-0-22000-0-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:44Z",
+                "completed_at": "2026-08-14T18:51:44Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:44Z",
+                "completed_at": "2026-08-14T18:51:55Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:51:55Z",
+                "completed_at": "2026-08-14T18:51:56Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:51:56Z",
+                "completed_at": "2026-08-14T18:51:56Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-08-14T18:51:56Z",
+                "completed_at": "2026-08-14T18:51:56Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T18:51:56Z",
+                "completed_at": "2026-08-14T18:51:56Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:51:56Z",
+                "completed_at": "2026-08-14T18:52:04Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-08-14T18:52:04Z",
+                "completed_at": "2026-08-14T18:52:04Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:04Z",
+                "completed_at": "2026-08-14T18:55:42Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2026-08-14T18:55:42Z",
+                "completed_at": "2026-08-14T18:55:42Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:55:42Z",
+                "completed_at": "2026-08-14T18:55:44Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:55:44Z",
+                "completed_at": "2026-08-14T18:55:45Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196338",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000001227,
+        "runner_name": "GitHub Actions 1000001227",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 94865196444,
+        "run_id": 31830616769,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31830616769",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWFmgFnA",
+        "head_sha": "2ea93180737c058dc4ec200d62c2d93370099178",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94865196444",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31830616769/job/94865196444",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-08-14T18:51:41Z",
+        "started_at": "2026-08-14T18:51:43Z",
+        "completed_at": "2026-08-14T18:53:08Z",
+        "name": "ICU vs-17-2022-win64-store-10-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T18:51:45Z",
+                "completed_at": "2026-08-14T18:51:47Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T18:51:47Z",
+                "completed_at": "2026-08-14T18:52:00Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-08-14T18:52:00Z",
+                "completed_at": "2026-08-14T18:52:01Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T18:52:01Z",
+                "completed_at": "2026-08-14T18:52:01Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-08-14T18:52:01Z",
+                "completed_at": "2026-08-14T18:52:01Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T18:52:01Z",
+                "completed_at": "2026-08-14T18:52:01Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-08-14T18:52:01Z",
+                "completed_at": "2026-08-14T18:52:09Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-08-14T18:52:09Z",
+                "completed_at": "2026-08-14T18:52:09Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 9,
+                "started_at": "2026-08-14T18:52:09Z",
+                "completed_at": "2026-08-14T18:53:05Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2026-08-14T18:53:05Z",
+                "completed_at": "2026-08-14T18:53:05Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-08-14T18:53:05Z",
+                "completed_at": "2026-08-14T18:53:07Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-08-14T18:53:07Z",
+                "completed_at": "2026-08-14T18:53:07Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94865196444",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000001228,
+        "runner_name": "GitHub Actions 1000001228",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    }
+]
