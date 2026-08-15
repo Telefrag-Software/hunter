@@ -1,0 +1,94 @@
+[
+    {
+        "id": 94895523449,
+        "run_id": 31840307681,
+        "workflow_name": "CI",
+        "head_branch": "custom",
+        "run_url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/runs/31840307681",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOG7mqDc8AAAAWGDbGeQ",
+        "head_sha": "15c5c8f47da18cb6db571079a90e45ba3aead269",
+        "url": "https://api.github.com/repos/Telefrag-Software/hunter/actions/jobs/94895523449",
+        "html_url": "https://github.com/Telefrag-Software/hunter/actions/runs/31840307681/job/94895523449",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-08-14T20:57:53Z",
+        "started_at": "2026-08-14T22:30:03Z",
+        "completed_at": "2026-08-14T22:30:14Z",
+        "name": "check_urls",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-08-14T22:30:04Z",
+                "completed_at": "2026-08-14T22:30:05Z"
+            },
+            {
+                "name": "Git checkout",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-08-14T22:30:05Z",
+                "completed_at": "2026-08-14T22:30:06Z"
+            },
+            {
+                "name": "Manual dispatch, get project name from input",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 3,
+                "started_at": "2026-08-14T22:30:06Z",
+                "completed_at": "2026-08-14T22:30:06Z"
+            },
+            {
+                "name": "Get changed files and save them to ${HOME}/files.json",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-08-14T22:30:06Z",
+                "completed_at": "2026-08-14T22:30:06Z"
+            },
+            {
+                "name": "Install dependencies",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-08-14T22:30:06Z",
+                "completed_at": "2026-08-14T22:30:11Z"
+            },
+            {
+                "name": "Check changed projects for working URLs",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-08-14T22:30:11Z",
+                "completed_at": "2026-08-14T22:30:12Z"
+            },
+            {
+                "name": "Post Git checkout",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12,
+                "started_at": "2026-08-14T22:30:12Z",
+                "completed_at": "2026-08-14T22:30:12Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13,
+                "started_at": "2026-08-14T22:30:12Z",
+                "completed_at": "2026-08-14T22:30:12Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Telefrag-Software/hunter/check-runs/94895523449",
+        "labels": [
+            "ubuntu-latest"
+        ],
+        "runner_id": 1000001713,
+        "runner_name": "GitHub Actions 1000001713",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    }
+]
